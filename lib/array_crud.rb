@@ -31,6 +31,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array.length = last_item_index
+  last_item_index = array.length
   return array[last_item_index]
 end
